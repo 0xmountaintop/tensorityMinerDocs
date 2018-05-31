@@ -4,6 +4,8 @@
   + input: `block_header_hash` & `seed`
     + `block_header_hash`
       + [区块头hash流程](https://github.com/Bytom/B3-Mimic/blob/master/docs/blhr_hash_V3.go)
+    + `seed`
+      + 从 `seed` 生成矩阵需要花费一定时间，`seed` 256个区块改变一次，故 seed 生成的矩阵数组可以做个 cache 以复用
   + output: `tensority_hash`
 + 代码实现
   + [cpp openBLAS](https://github.com/Bytom/CppTensority)
