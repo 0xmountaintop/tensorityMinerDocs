@@ -2,7 +2,7 @@
 
 + tensority
   + input: `block_header_hash` & `seed`
-    + block_header_hash
+    + `block_header_hash`
       + [区块头hash流程](https://github.com/Bytom/B3-Mimic/blob/master/docs/blhr_hash_V3.go)
   + output: `tensority_hash`
 + 代码实现
